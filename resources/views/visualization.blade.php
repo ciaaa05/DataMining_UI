@@ -6,10 +6,10 @@
         <div id="univariate">
             <div class="row align-items-start">
                 @foreach ($data as $data)
-                <div id="{{ $data['slug'] }}"
-                    class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <h1 class="h2" >{{ $data['title'] }}</h1>
-                </div>
+                    <div id="{{ $data['slug'] }}"
+                        class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                        <h1 class="h2">{{ $data['title'] }}</h1>
+                    </div>
                     <div class="col-7 mb-3">
                         <div class="card">
                             {!! file_get_contents(public_path('html/' . $data['slug'] . '.html')) !!}
@@ -18,7 +18,7 @@
                     <div class="col-5 mb-3">
                         <div class="card">
                             {{ $data['desc'] }}
-                         </div>
+                        </div>
                     </div>
                 @endforeach
             </div>
