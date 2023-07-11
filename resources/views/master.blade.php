@@ -31,7 +31,7 @@
         <div class="row">
             <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
                 <nav class="nav flex-column">
-                    <a class="nav-link" href="/home"><h5>Home</h5></a>
+                    <a class="nav-link active" href="/home"><h5>Home</h5></a>
                     <a class="nav-link" href="/preprocessing"><h5>Preprocessing</h5></a>
                     <nav class="nav flex-column">
                         <a class="nav-link ms-3" href="/preprocessing#cleaning"><h6> Data Cleaning</h6></a>

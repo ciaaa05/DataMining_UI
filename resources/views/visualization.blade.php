@@ -3,7 +3,7 @@
 @section('content')
     <main data-bs-spy="scroll" data-bs-target="#sidebarMenu" data-bs-offset="0" tabindex="0"
         class="scrollspy-example col-md-9 ms-sm-auto col-lg-10 px-md-4">
-        <div id="univariate">
+        <div id="univariate" class="me-4">
             <div class="row align-items-start">
                 @foreach ($data as $data)
                     <div id="{{ $data['slug'] }}"
@@ -15,7 +15,7 @@
                             {!! file_get_contents(public_path('html/' . $data['slug'] . '.html')) !!}
                         </div>
                     </div>
-                    <div class="col mb-3 me-4">
+                    <div class="col mb-3">
                         <div class="">
                             {!! $data['desc'] !!}
                         </div>

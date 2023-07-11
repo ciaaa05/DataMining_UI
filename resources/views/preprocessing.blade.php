@@ -3,7 +3,7 @@
 @section('content')
     <main data-bs-spy="scroll" data-bs-target="#sidebarMenu" data-bs-offset="0" tabindex="0"
         class="scrollspy-example col-md-9 ms-sm-auto col-lg-10 px-md-4">
-        <div id="cleaning">
+        <div id="cleaning" class="me-4">
             <div
                 class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                 <h1 class="h2">Data Cleaning</h1>
@@ -33,7 +33,7 @@
             </div>
         </div>
 
-        <div id="selection" style="margin-top: 7vw">
+        <div id="selection" class="me-4" style="margin-top: 7vw">
             <div
                 class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom border-top">
                 <h1 class="h2">Feature Selection</h1>
@@ -46,7 +46,7 @@
             <div>{!! file_get_contents(public_path('html/correlation_heatmap.html')) !!}</div>
         </div>
 
-        <div id="transformation" style="margin-top: 1vw">
+        <div id="transformation" class="me-4" style="margin-top: 1vw">
             <div
                 class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom border-top">
                 <h1 class="h2">Data Transformation</h1>
