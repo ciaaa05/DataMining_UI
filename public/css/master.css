@@ -99,4 +99,12 @@ body {
   p {
     text-indent: 3em;
     font-size: 1vw;
+    text-align: justify;
     }
+
+  li {
+    font-size: 1vw;
+    text-align: justify;
+    }
+
+

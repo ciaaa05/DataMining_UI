@@ -15,9 +15,9 @@
                             {!! file_get_contents(public_path('html/' . $data['slug'] . '.html')) !!}
                         </div>
                     </div>
-                    <div class="col-5 mb-3">
-                        <div class="card">
-                            {{ $data['desc'] }}
+                    <div class="col mb-3 me-4">
+                        <div class="">
+                            {!! $data['desc'] !!}
                         </div>
                     </div>
                 @endforeach
