@@ -29,33 +29,14 @@
 
     <div class="container-fluid">
         <div class="row">
-            {{-- <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
-                <div class="position-sticky pt-3">
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="/#univariate">
-                                <span data-feather="file"></span>
-                                Univariate
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/#bivariate">
-                                <span data-feather="file"></span>
-                                Bivariate
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav> --}}
-
             <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
                 <nav class="nav flex-column">
                     <a class="nav-link" href="/home"><h5>Home</h5></a>
                     <a class="nav-link" href="/preprocessing"><h5>Preprocessing</h5></a>
                     <nav class="nav flex-column">
                         <a class="nav-link ms-3" href="/preprocessing#cleaning"><h6> Data Cleaning</h6></a>
-                        <a class="nav-link ms-3" href="/preprocessing#transformation"><h6> Data Transformation</h6></a>
                         <a class="nav-link ms-3" href="/preprocessing#selection"><h6> Feature Selection</h6></a>
+                        <a class="nav-link ms-3" href="/preprocessing#transformation"><h6> Data Transformation</h6></a>
                     </nav>
                     <a class="nav-link" href="/data-visualization"><h5>Data Visualization</h5></a>
                     <nav class="nav flex-column">
@@ -67,8 +48,6 @@
                         <a class="nav-link ms-3" href="/data-visualization#contract-type">NAME_CONTRACT_TYPE</a>
                         <a class="nav-link ms-3" href="/data-visualization#organization-type">ORGANIZATION_TYPE</a>
                         <a class="nav-link ms-3" href="/data-visualization#occupation-type">OCCUPATION_TYPE</a>
-                        <a class="nav-link ms-3" href="/data-visualization#gender-vs-amount-credit">CODE_GENDER VS AMOUNT_CREDIT</a>
-                        <a class="nav-link ms-3" href="/data-visualization#contract-type-vs-gender">NAME_CONTRACT_TYPE VS CODE_GENDER</a>
                     </nav>
                 </nav>
             </nav>

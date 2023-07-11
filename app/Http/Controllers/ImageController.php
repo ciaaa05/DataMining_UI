@@ -109,16 +109,6 @@ class ImageController extends Controller
                 <ul>
                     <li> Kebutuhan bulanan maupun kebutuhan mendesak yang tidak dapat ditutupi dari pendapatan yang dimiliki </li>
                 </ul>'
-            ],
-            [
-                "slug" => 'gender-vs-amount-credit',
-                "title" => "CODE_GENDER VS AMOUNT_CREDIT",
-                "desc" => 'lorem dulu'
-            ],
-            [
-                "slug" => 'contract-type-vs-gender',
-                "title" => "NAME_CONTRACT_TYPE VS CODE_GENDER",
-                "desc" => 'lorem dulu'
             ]
         ];
 
