@@ -10,10 +10,10 @@
                 class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                 <h1 class="h2">Introduction</h1>
             </div>
+            <img src="assets/banner.jpg" alt="" style="width: 100%; height:auto" class="mb-3">
             <p>
                 Saat ini transaksi dengan metode pembayaran cashless terutama penggunaan kartu kredit sangat membludak karena kemudahannya dalam melakukan transaksi dan banyaknya promo yang menguntungkan dan menggiurkan bagi para pengguna kartu kredit. Akibatnya, banyak orang yang tertarik untuk menggunakan kartu kredit. Namun, para pengguna kartu kredit sering kali melakukan transaksi dengan metode pembayaran jenis ini tanpa adanya kontrol dalam penggunaan kartu kredit karena mengejar promo dan sebagainya. Ketidakmampuan dalam mengontrol penggunaan kartu kredit mengakibatkan kerugian pada perusahaan maupun instansi finansial karena banyaknya orang yang tidak mampu membayar tagihan kartu kredit yang mereka gunakan. Perusahaan maupun instansi tentu tidak dengan sembarangan memberikan pinjaman kepada customernya, namun syarat yang dibutuhkan dalam mendaftarkan pembuatan kartu kredit tidak mampu memprediksi secara tepat kemampuan bayar tagihan kartu kredit tersebut. Hal ini juga diakibatkan dari kesalahan manusia (Human Error) yang tidak mampu secara akurat memprediksi hal tersebut. Sehingga perusahaan tetap memberikan pinjaman kepada customer yang ingin membuat kartu kredit tanpa dapat memastikan apakah orang tersebut mampu membayar tagihan kartu kreditnya atau tidak.
             </p>
-
             <div
                 class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                 <h1 class="h2">Our Dataset</h1>
