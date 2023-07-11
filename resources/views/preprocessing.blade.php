@@ -8,10 +8,9 @@
                 class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                 <h1 class="h2">Data Cleaning</h1>
             </div>
-            <p>(Penjelasan singkat Data Cleaning tuh apa) Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-                ipsum incidunt facilis nobis veritatis perferendis magni, fuga tenetur eveniet reprehenderit perspiciatis
-                quo. </p>
-
+            <p>Data Cleaning merupakan proses persiapan data dengan mendeteksi dan memperbaiki atau menghapus kesalahan pada data seperti missing value, noise, dan lain sebagainya. Pada proses ini, dataset yang digunakan memiliki beberapa missing value dan outlier, sehingga perlu dilakukan proses data cleaning.  </p>
+            <p>Terdapat tiga cara yang digunakan untuk mengatasi missing value yang ada pada dataset. Pertama, mengisi missing value dengan suatu nilai baru. Kedua, replace missing value dengan central tendency seperti mean, median, atau modus. Kedua, hapus baris data yang memiliki missing value. Salah satu contoh implementasi mengisi missing value dengan value baru ada pada attribute "OCCUPATION_TYPE" di mana missing valuenya diisi dengan value "Unknown". Kemudian contoh implementasi replace missing value dengan central tendency adalah attribute "CODE_GENDER" dimana terdapat empat missing value yang direplace dengan modusnya, yaitu "F".</p>
+            <p>Setelah melalui proses mengatasi missing value, hal yang harus dilakukan adalah mengatasi noise atau outlier pada data. Salah satu cara yang dapat digunakan adalah menghapus data outlier tersebut. Pada dataset yang digunakan,  </p>
             <div class="d-flex flex-column justify-content-center">
                 <div class="m-auto mb-3">
                     <h5 class="text-center">Boxplot Before Data Outlier Removed</h5>
