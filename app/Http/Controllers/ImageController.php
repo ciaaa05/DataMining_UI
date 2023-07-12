@@ -75,7 +75,7 @@ class ImageController extends Controller
             [
                 "slug" => 'contract-type',
                 "title" => "NAME_CONTRACT_TYPE",
-                "desc" => '<p>Tipe kontrak peminjaman yang digunakan dalam dataset ini adalah tipe cash loans (pinjaman tunai) dan tipe revolving loans (pinjaman bertahap). Cash loans yang ditampilkan dalam graph memiliki nilai dominan sebanyak 181.642 jauh lebih banyak dibandingkan nilai Revolving loans sebesar 20.005 data.</p>
+                "desc" => '<p>Tipe kontrak peminjaman yang digunakan dalam dataset ini adalah tipe cash loans (pinjaman tunai) dan tipe revolving loans (pinjaman bertahap). Cash loans yang ditampilkan dalam graph memiliki nilai dominan sebanyak 180.927 jauh lebih banyak dibandingkan nilai Revolving loans sebesar 19.374 data.</p>
 
                 <h3> Hal ini disebabkan oleh beberapa faktor, seperti </h3>
 
@@ -94,20 +94,21 @@ class ImageController extends Controller
                 <h3> Mengapa demikian? </h3>
 
                 <ul>
-                    <li> Kebutuhan besar yang tidak sebanding dengan pemasukan sehingga mengharuskan untuk menggunakan kartu kredit untuk memenuhi kebutuhan tersebut disaat yang dibutuhkan </li>
-                    <li> Penggunaan kartu kredit mempermudah proses transaksi </li>
-                    <li> Proses pengelolaan dan pencatatan keuangan lebih jelas dapat didokumentasikan dengan baik dan mudah </li>
+                    <li> Kebutuhan untuk modal dan biaya maintenance yang tinggi bagi start-up. </li>
+                    <li> Pengeluaran dan kebutuhan pada organisasi keagamaan, firma hukum, dan kebudayaan tidak tinggi sehingga tidak membutuhkan pinjaman. </li>
+                    <li> Keuntungan menggunakan kartu kredit bisnis dalam transaksi akibat banyaknya promo menarik start-up untuk melakukan peminjaman. </li>
                 </ul>'
             ],
             [
                 "slug" => 'occupation-type',
                 "title" => "OCCUPATION_TYPE",
-                "desc" => '<p>Tidak dapat dipungkiri, pengguna kartu kredit berasal dari berbagai jenis pekerjaan. Contohnya seperti labors sebesar 43.674 data yang sangat dominan dibandingkan dengan jenis pekerjaan berbeda dengan para pekerja staff IT sebesar 432 data.</p>
+                "desc" => '<p>Tidak dapat dipungkiri, pengguna kartu kredit berasal dari berbagai jenis pekerjaan. Contohnya seperti labors sebesar 43.433 data yang sangat dominan dibandingkan dengan jenis pekerjaan berbeda dengan para pekerja staff IT sebesar 424 data.</p>
 
                 <h3> Hal ini merupakan imbas dari </h3>
 
                 <ul>
-                    <li> Kebutuhan bulanan maupun kebutuhan mendesak yang tidak dapat ditutupi dari pendapatan yang dimiliki </li>
+                    <li> Kebutuhan bulanan maupun kebutuhan mendesak yang tidak dapat ditutupi dari pendapatan yang didapatkan oleh laborers sehingga laborers harus melakukan peminjaman. </li>
+                    <li> Tidak menutup kemungkinan bahwa kebutuhan staff IT juga banyak namun pendapatan staff IT lebih tinggi sehingga dapat menutupi pengeluaran dan tidak perlu melakukan peminjaman sehingga tidak banyak staff IT yang perlu melakukan peminjaman. </li>
                 </ul>'
             ]
         ];
